@@ -30,6 +30,11 @@ img{
     max-width: 100%;
 }
 
+
+h2{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
 /******
 UTILITIES
 ******/
@@ -40,12 +45,6 @@ UTILITIES
 .debug .left{
     color: white;
 }
-
-.debug .bg_green{
-    height: 400px;
-}
-
-
 
 
 /*#endregion debug*/
@@ -64,8 +63,23 @@ ul>li{
     margin-left: 1rem;
 }
 
+.jumbo img{
+    width: 150px;
+}
+
 .portfolio_img img{
     width: 100%;
 }
+
+.about> h2{
+    text-align: center;
+}
+
+.btn_green{
+    background-color: var(--bg_green);
+    border: 1px solid;
+    color: white;
+}
+
 
 /*#endregion main*/
