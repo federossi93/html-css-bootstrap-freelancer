@@ -1,0 +1,71 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --bg_green: #1ABC9C;
+    --bg_dark: #2C3E50;
+    --bg_light_dark: #3A546D;
+    --bg_light: #FFFFFF;
+}
+
+.cl_dark{
+    background-color: var(--bg_dark);
+}
+
+.bg_green{
+    background-color: var(--bg_green);
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+/******
+UTILITIES
+******/
+
+
+/*#region debug*/
+
+.debug .left{
+    color: white;
+}
+
+.debug .bg_green{
+    height: 400px;
+}
+
+
+
+
+/*#endregion debug*/
+
+
+/*#region main*/
+
+.list_style_n{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul>li{
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+.portfolio_img img{
+    width: 100%;
+}
+
+/*#endregion main*/
