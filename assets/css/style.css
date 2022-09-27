@@ -58,7 +58,6 @@ UTILITIES
 .line{
     width: 150px;
     height: 3px;
-    background-color: var(--bg_light);
     margin: 0 2rem;
     align-self: center;
 }
