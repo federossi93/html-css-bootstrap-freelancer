@@ -19,6 +19,21 @@ h2{
     font-size: 60px;
 }
 
+.icon>i{
+    border: 1px solid;
+    border-radius: 50%;
+    margin: 0 0.2rem;
+    padding: 1rem;
+} 
+
+.fa-facebook-f,
+.fa-google-plus-g,
+.fa-twitter,
+.fa-linkedin-in{
+    height: 50px;
+    width: 50px;
+}
+
 /******
 UTILITIES
 ******/
