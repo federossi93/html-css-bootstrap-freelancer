@@ -6,7 +6,24 @@
     --bg_light: #FFFFFF;
 }
 
-.cl_dark{
+img{
+    max-width: 100%;
+}
+
+h2{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+/******
+UTILITIES
+******/
+
+
+/*BACKGROUND COLOR*/
+
+.bg_dark{
     background-color: var(--bg_dark);
 }
 
@@ -22,41 +39,14 @@
     background-color: var(--bg_dark);
 }
 
-a{
-    color: white;
-    text-decoration: none;
+/*COLOR*/
+
+.cl_light{
+    color: var(--bg_light);
 }
 
-img{
-    max-width: 100%;
-}
-
-h2{
-    text-align: center;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-}
-
-nav{
-    color: white;
-}
-
-/******
-UTILITIES
-******/
 
 /*#region main*/
-
-.list_style_n{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-ul>li{
-    display: inline-block;
-    margin-left: 1rem;
-}
 
 .jumbo img{
     width: 150px;
